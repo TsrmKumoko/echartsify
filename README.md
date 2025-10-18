@@ -7,6 +7,12 @@
 clone 项目到本地后，进入 src 目录，执行以下命令安装依赖：
 
 ```bash
+pip install .
+```
+
+如果需要在开发环境中进行调试，建议使用 editable 模式安装：
+
+```bash
 pip install -e .
 ```
 
